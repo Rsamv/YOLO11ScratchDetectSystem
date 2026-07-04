@@ -42,6 +42,7 @@ exported_svg_fixed/
 *.pdf
 *.svg
 *.png
+!assets/*.png
 export_log.txt
 
 # ===== 论文/文档生成脚本（非核心检测功能） =====
