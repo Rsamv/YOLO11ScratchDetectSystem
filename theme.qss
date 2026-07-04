@@ -1,0 +1,183 @@
+QMainWindow, QWidget {
+    background-color: #f0f2f5;
+    color: #1a1a1a;
+    font-family: "Microsoft YaHei UI", "Segoe UI", sans-serif;
+    font-size: 18px;
+}
+QTabWidget::pane { border: 1px solid #c8c8c8; border-radius: 12px; background: #ffffff; }
+QTabBar::tab {
+    background: #e8e8e8; color: #4a4a4a; padding: 14px 36px;
+    border: 1px solid #d0d0d0; border-bottom: none;
+    border-radius: 8px 8px 0 0; margin-right: 4px; font-weight: bold; font-size: 18px;
+}
+QTabBar::tab:hover { background: #d8d8d8; }
+QTabBar::tab:selected  { background: #0078d4; color: #ffffff; }
+
+QPushButton {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    min-height: 42px;
+    font-size: 18px;
+}
+QPushButton:hover { background-color: #0078d4; color: #ffffff; border-color: #0078d4; }
+
+QPushButton#btn_active {
+    background-color: #0078d4;
+    color: #ffffff;
+    border: 3px solid #005a9e;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    min-height: 44px;
+}
+QPushButton#btn_active:hover {
+    background-color: #006cbd;
+    color: #ffffff;
+}
+
+QPushButton#btn_reset {
+    background-color: #ffffff;
+    border: 2px solid #d13438;
+    border-radius: 10px;
+    color: #d13438;
+}
+QPushButton#btn_reset:hover {
+    background-color: #d13438;
+    color: #ffffff;
+}
+
+QPushButton#disabled_btn {
+    background-color: #f0f2f5;
+    color: #a0a0a0;
+    border-color: #d0d0d0;
+    border-radius: 10px;
+}
+
+QPushButton#titlebar_btn {
+    min-width: 24px; min-height: 24px; background: transparent; border: none; border-radius: 6px; font-size: 12px;
+}
+QPushButton#titlebar_btn:hover { background-color: #d0d0d0; }
+QPushButton#titlebar_btn_close:hover { background-color: #d13438; color: #ffffff; }
+
+/* 指定按钮字体放大一倍 - 精确针对 */
+QPushButton#btn_enlarged {
+    font-size: 36px;
+    min-height: 56px;
+    padding: 12px 24px;
+}
+QPushButton#btn_enlarged:hover { background-color: #0078d4; color: #ffffff; border-color: #0078d4; }
+
+QPushButton#btn_batch_compact {
+    font-size: 30px;
+    min-height: 52px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+QPushButton#btn_batch_compact:hover { background-color: #0078d4; color: #ffffff; border-color: #0078d4; }
+
+QPushButton#btn_batch_neutral {
+    font-size: 22px;
+    min-height: 42px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+QPushButton#btn_batch_neutral:hover { background-color: #0078d4; color: #ffffff; border-color: #0078d4; }
+
+QPushButton#btn_side_compact {
+    font-size: 18px;
+    min-height: 0px;
+    max-height: 36px;
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+QPushButton#btn_side_compact:hover { background-color: #0078d4; color: #ffffff; border-color: #0078d4; }
+
+/* 指定标签字体放大一倍 - 精确针对 */
+QLabel#lbl_enlarged {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+QGroupBox {
+    border: 2px solid #c0c0c0;
+    border-radius: 16px;
+    margin-top: 28px;
+    padding-top: 24px;
+    background-color: #ffffff;
+}
+QGroupBox::title {
+    subcontrol-origin: padding;
+    subcontrol-position: top left;
+    padding: 0 12px;
+    margin-top: -14px;
+    color: #0078d4;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+/* 指定标签字体放大一倍 - 精确针对 */
+QLabel#lbl_enlarged {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+QComboBox {
+    border: 2px solid #0078d4;
+    border-radius: 10px;
+    padding: 8px 12px;
+    background: #ffffff;
+    min-height: 40px;
+    font-size: 17px;
+}
+QComboBox:hover { border-color: #005a9e; }
+
+QTextEdit {
+    background: #ffffff; color: #1a1a1a; border: 2px solid #c0c0c0;
+    border-radius: 10px;
+    font-family: "Consolas", monospace; font-size: 17px;
+}
+
+QLabel {
+    font-size: 17px;
+}
+
+#stat_value {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0078d4;
+}
+
+#stat_title {
+    font-size: 15px;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+
+QSlider::groove:horizontal {
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 6px;
+    border: 1px solid #c0c0c0;
+}
+QSlider::handle:horizontal {
+    width: 24px;
+    height: 24px;
+    background: #0078d4;
+    border-radius: 12px;
+    margin: -6px 0;
+    border: 2px solid #005a9e;
+}
+
+QLineEdit, QSpinBox, QDoubleSpinBox {
+    background: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #c0c0c0;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 17px;
+}

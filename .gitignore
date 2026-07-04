@@ -1,0 +1,81 @@
+# ===== 模型权重文件（自行训练获取，不随仓库分发） =====
+weights/*.pt
+weights/*.onnx
+weights/*.trt
+weights/*.trt.meta.json
+weights/*.trt.old
+weights/*.engine
+
+# ===== PyInstaller 编译产物 =====
+build/
+dist/
+*.spec
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist-packages/
+*.whl
+
+# ===== 论文/文档/工作文件 =====
+output/
+scratch/
+work_extracted/
+_work_record_fill/
+改进记录/
+plan/
+
+# ===== 导出的图片/图表 =====
+exported_png/
+exported_png_hd/
+exported_svg_direct/
+exported_svg_fixed/
+
+# ===== 根目录下的非核心文件 =====
+*.drawio
+*.docx
+*.pptx
+*.xlsx
+*.pdf
+*.svg
+*.png
+export_log.txt
+
+# ===== 论文/文档生成脚本（非核心检测功能） =====
+generate_defense_qna.py
+generate_drawio.py
+generate_graduation_ppt.py
+generate_perfect_ppt.py
+generate_thesis.py
+modify_docx.py
+read_docx.py
+rewrite_thesis_v2.py
+_extract_colors.py
+scripts/
+tools/
+
+# ===== 备份 =====
+backup/
+
+# ===== 系统/IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== 环境 =====
+.env
+.env.*
+*.log
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*.orig

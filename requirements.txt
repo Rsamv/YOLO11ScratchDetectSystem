@@ -1,0 +1,11 @@
+# 核心依赖
+PyQt5>=5.15
+opencv-python>=4.5
+numpy>=1.21
+
+# 推理引擎（二选一或同时安装）
+onnxruntime-gpu>=1.16
+# tensorrt>=10.0  # 可选，需要 NVIDIA GPU 环境
+
+# 可选依赖
+scipy>=1.7  # 用于匈牙利匹配算法（目标追踪）
