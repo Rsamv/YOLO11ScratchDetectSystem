@@ -162,3 +162,13 @@ MIT — [Rsamv](https://github.com/Rsamv)
 - [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) — GUI 框架
 - [TensorRT](https://developer.nvidia.com/tensorrt) — GPU 推理加速
 - [ONNX Runtime](https://onnxruntime.ai/) — 跨平台推理引擎
+
+---
+
+## 写在最后
+
+这其实是我的本科毕业设计。当时也是做了很久，凭借这个项目最终是获评了优秀毕业论文。当然这个项目可能还是有不好的地方，但毕竟是自己带出来的孩子，多少是有点不舍的。
+
+当初开发的时候，是想在社区找参考的，但是很多都是只放一点出来，或者是引流卖软件的。别人卖的那些，质量参差不齐，大家擦亮眼睛。最后是参考了很多只有基本功能的开源项目做出来的，也是提升了自己的能力。这些还是得自己经历过才能锻炼到自己。
+
+现在本科已经告一段落，将毕业设计放出来，希望给社区一个可以参考的项目。
