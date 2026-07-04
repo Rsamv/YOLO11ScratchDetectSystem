@@ -1,4 +1,4 @@
-# ScratchDetect
+# YOLO11ScratchDetectSystem
 
 > 基于 YOLO11 的工业工件表面划痕缺陷检测系统 — 开箱即用的 PyQt5 桌面端 + TensorRT / ONNX Runtime 加速推理
 
@@ -11,7 +11,7 @@
 
 工业产线上，人工目视检测划痕效率低、漏检率高、标准不统一。传统机器视觉方案又需要大量定制开发。
 
-ScratchDetect 的目标：**拍一张图进来，系统自动告诉你有没有划痕、在哪里、多严重。**
+YOLO11ScratchDetectSystem 的目标：**拍一张图进来，系统自动告诉你有没有划痕、在哪里、多严重。**
 
 - **不会写代码也能用** — PyQt5 图形界面，点点鼠标就行
 - **检测速度够快** — TensorRT 加速下单张图片推理毫秒级
@@ -110,12 +110,12 @@ python ui.py
 build.bat
 ```
 
-打包产物在 `dist/ScratchDetect/` 目录。
+打包产物在 `dist/ScratchDetect/` 目录。（PyInstaller 输出名保持 ScratchDetect）
 
 ## 项目结构
 
 ```
-ScratchDetect/
+YOLO11ScratchDetectSystem/
 ├── ui.py                    # 主界面（Qt5 前端，6000+ 行）
 ├── detect_qt5.py            # 检测后端（TensorRT/ONNX 推理引擎）
 ├── distance_calc.py         # 距离计算模块
